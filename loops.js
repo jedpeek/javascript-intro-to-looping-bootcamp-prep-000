@@ -24,7 +24,7 @@ function doWhileLoop(array){
   }
   
   do{
-    delete array.unshift()
+    delete array.shift()
   } while(array.length > 0 && maybeTrue())
   return array;
 }
