@@ -18,6 +18,7 @@ function whileLoop(n){
   return "done"
 }
 
+function doWhileLoop(){
 function maybeTrue() {
   return Math.random() >= 0.5
 }
@@ -25,3 +26,4 @@ function maybeTrue() {
 do{
   delete arr[0]
 } while(arr.length > 0 && maybeTrue());
+}
