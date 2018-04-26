@@ -18,11 +18,11 @@ function whileLoop(n){
   return "done"
 }
 function doWhileLoop(array){
-function maybeTrue() {
-  return Math.random() >= 0.5
-}
-
-do{
-  delete array[0]
-} while(array.length > 0 && maybeTrue());
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+  
+  do{
+    delete array[0]
+  } while(array.length > 0 && maybeTrue());
 }
