@@ -17,13 +17,12 @@ function whileLoop(n){
   }
   return "done"
 }
-arr= [];
-function doWhileLoop(){
+function doWhileLoop(array){
 function maybeTrue() {
   return Math.random() >= 0.5
 }
 
 do{
-  delete arr[0]
+  delete array[0]
 } while(arr.length > 0 && maybeTrue());
 }
