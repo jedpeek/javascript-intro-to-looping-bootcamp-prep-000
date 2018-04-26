@@ -24,5 +24,5 @@ function maybeTrue() {
 
 do{
   delete array[0]
-} while(arr.length > 0 && maybeTrue());
+} while(array.length > 0 && maybeTrue());
 }
